@@ -25,6 +25,6 @@ A proof-of-concept tool that leverages Windows kernel dump files for enhanced se
   - Comparing section headers.
   - Conducting byte/instruction-level comparisons on executable pages.
   - Mitigating false positives (due to factors like Retpoline, import optimization, and KASLR) by skipping mismatched RVAs if a Dynamic Value Relocation Table (DVRT) entry is present.  
-    *Note: This is a very simple approach and as you might imagine, it will lead to false negatives if the mismatch happens at one of these locations. Check out the integrity code and [DVRT parser]([http://example.com](https://github.com/Life45/dmputils/blob/main/external/dvrtparser/dvrtparser.h)) for nuances and workarounds.*
+    *Note: This is a very simple approach and as you might imagine, it will lead to false negatives if the mismatch happens at one of these locations. Check out the integrity code and [DVRT parser](https://github.com/Life45/dmputils/blob/main/external/dvrtparser/dvrtparser.h) for nuances and workarounds.*
 
 This project was developed over a weekend as a quick proof-of-concept. There is plenty of room for expansion, so feel free to explore additional security checks and improvements.

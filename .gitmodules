@@ -1,0 +1,9 @@
+[submodule "external/kdmp-parser"]
+	path = external/kdmp-parser
+	url = https://github.com/0vercl0k/kdmp-parser
+[submodule "external/ia32-doc"]
+	path = external/ia32-doc
+	url = https://github.com/ia32-doc/ia32-doc
+[submodule "external/phnt"]
+	path = external/phnt
+	url = https://github.com/winsiderss/phnt

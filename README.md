@@ -1,10 +1,10 @@
-# .dmp Utils
+# .dmp Security
 
 A proof-of-concept tool that leverages Windows kernel dump files for enhanced security analysis.
 
 ## Overview
 
-**.dmp Utils** was created to take advantage of the introduction of full live kernel dumps in Windows 11. It allows you to capture a live snapshot of the kernel memory and perform various security checks entirely from user mode—no kernel driver required.
+**.dmp Security** was created to take advantage of the introduction of full live kernel dumps in Windows 11. It allows you to capture a live snapshot of the kernel memory and perform various security checks entirely from user mode—no kernel driver required.
 
 ## Features
 
